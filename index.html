@@ -1,0 +1,55 @@
+<! DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Confessions of a Remote Work Warrior</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <h1 id="title">Confessions of a Remote Work Warrior</h1>
+    <p id="description">This survey is about sharing the funny, relatable work from home experience, building community through humor. Thank you for letting us laugh at...err...<i>with</i> you.</p><br>
+<div class="survey">
+<form id="survey-form">
+  <fieldset>
+  <label for="name" id="name-label">Name <input id="name" name="name" type="text" placeholder="Enter your full name" required></input></label>
+  <label for="email" id="email-label">Email <input id="email" name="email" type="email" placeholder="hello@123.com" required></input></label>
+  <label for="age"id="number-label">Age <input id="number" name="number" type="number" placeholder="Enter your age" min="16" max="120"></input></label>
+  <label for="describer">Which best describes you?<select id="dropdown" name="describer">
+    <option value="">(select one)</option>
+    <option value="1">Work from home full-time</option>
+    <option value="2">Hybrid schedule with some remote work</option>
+    <option value ="3">Work from home only during global emergencies</option></select>
+    </fieldset>
+    <fieldset>
+      <label>How often do you say, "You're on mute" in a meeting? </label><br>
+      <label for="option 1"><input id="option 1" type="radio" class="inline" value="never" name="frequency" checked></input>Never, we're all tech wizards.</label>
+      <label for="option 2"><input id="option 2" type="radio" class="inline" value="sometimes" name="frequency"></input>Occasionally, but it's not that bad.</label>
+      <label for="option 3"><input id="option 3" type="radio" class="inline" value="frequently" name="frequency"></input>Daily, I might as well have it tattooed on my forehead.</label>
+    </fieldset>
+    <fieldset>
+      <label>What does "getting ready for work" look like to you?</label><br>
+      <label for="option 1"><input id="option 1" type="radio" class="inline" value="full work" name="attire" checked></input>"The name badge and all" - full work attire</label>
+      <label for="option 2"><input id="option 2" type="radio" class="inline" value="mullet" name="attire"></input>"The work-from-home mullet" - business on top, sweats on the bottom</label>
+      <label for="option 3"><input id="option 3" type="radio" class="inline" value="pajamas" name="attire"></input>"The webcam 'isn't working' today" - still in pajamas because you just rolled out of bed</label>
+    </fieldset>
+    <fieldset>
+      <label>What is your most shameful snack choice during work hours? (check all that apply)</label><br>
+      <label for="choice 1"><input id="choice 1" class="inline" type="checkbox" name="pizza" value="pizza"></input>Cold pizza</label>
+      <label for="choice 2"><input id="choice 2" class="inline" type="checkbox" name="pizza" value="pizza"></input>Ice cream for breakfast</label>
+      <label for="choice 3"><input id="choice 3" class="inline" type="checkbox" name="energy drinks" value="energy drinks"></input>Energy drinks and more energy drinks</label>
+      <label for="choice 4"><input id="choice 4" class="inline" type="checkbox" name="adult bev" value="adult bev"></input>Adult beverage disguised in a coffee mug</label>
+      <label for="choice 5"><input id="choice 5" class="inline" type="checkbox" name="disdain" value="disdain"></input>My disdain for this job fuels me</label>
+      </fieldset>
+      <fieldset>
+        <label for="story">What is the most embarrassing thing to happen to you while working from home?
+          <textarea id="story" name="story" rows="3" cols="30" placeholder="This one time at work..."></textarea>
+          </label>
+        </fieldset>
+<input id="submit" type="submit" value="Submit"></input>
+</form>
+</div>
+</body>
+</html>
